@@ -66,7 +66,8 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
     --Updates
     local Updates = Window:NewTab("Updates 🛠")
     local UpdatesSection = Updates:NewSection("Updated Page On 6/12/2022")
-
+    
+    UpdatesSection:NewLabel("Extra Scripts , Executor Stats Under Dev")
     UpdatesSection:NewLabel("0.2 Added Stats , New Scripts")
     UpdatesSection:NewLabel("0.1 Game Hub Was Born!")
     
@@ -212,6 +213,14 @@ end)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/funkyfriday"))()
     end)
 
+    GamesSection:NewButton("Pop It Trading ✨", "Stats: 🟢", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Playgames291/Script/main/Zerpent%20Hub%20V2%20Cracked%20DO%20NOT%20TRY%20TO%20CHECK%20CODE%20IT%20IS%20OBFUSCATED%20SKID"))()
+    end)
+
+    GamesSection:NewButton("[🎃] My Hood", "Stats: 🟤", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/xnri9Ei0'))()
+    end)
+
     --FE
 
     local FE = Window:NewTab("FE 🔨")
@@ -254,7 +263,14 @@ end)
          print(currentOption)
     end)
     
-    InfoSection:NewLabel("Find Stats At 3 Dots Of Each Script")
+    InfoSection:NewDropdown("Executors Support Explain", "All executor symbols explained", {"Don't Click Anything Below", "🟩 = All Executors", "🟨 = 75% Executors Can Run", "🟧 = Known Executors", "🟥 = Synapse X , Script Ware", "⬛ = Custom"}, function(currentOption)
+        print(currentOption)
+    end)
+
+    InfoSection:NewLabel("Find Stats N Executor Support At 3 Dots Of Each Script")
+    InfoSection:NewButton("Infinite Yield", "Best Admin  Stats: Always: 🟢", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
     
     wait(10)
 
@@ -275,7 +291,7 @@ end)
        --
        game.StarterGui:SetCore("SendNotification",  {
         Title = "Did you know?";
-        Text = "Game Hub Has 286 Lines Of Code!";
+        Text = "Game Hub Has 302 Lines Of Code!";
         Icon = "http://www.roblox.com/asset/?id=10590477428";
         Duration = 2;
         Button1 = "WOW!";
