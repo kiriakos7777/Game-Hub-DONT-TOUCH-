@@ -1,6 +1,6 @@
 --Loading
 local function callback(Text)
-    if Text == "Oa" then
+    if Text == "OK" then
      print ("Loading Game Hub ...")
    elseif Text == ("Waiting...") then
     print ("Hi! Game Is Loading ...")
@@ -17,7 +17,7 @@ local function callback(Text)
     Text = "Now loading everything";
     Icon = "http://www.roblox.com/asset/?id=10590477428";
     Duration = 5;
-    Button1 = "Oa";
+    Button1 = "OK";
     Button2 = "Waiting...";
     Callback = NotificationBindable;
    })
