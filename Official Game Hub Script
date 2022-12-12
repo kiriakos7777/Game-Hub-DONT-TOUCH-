@@ -3,7 +3,7 @@ local function callback(Text)
     if Text == "OK" then
      print ("Loading Game Hub ...")
    elseif Text == ("Waiting...") then
-    print ("Hi! Game Is Loading ...")
+    print ("Hi! Game Hub Is Loading ...")
     end
    end
 
@@ -67,7 +67,8 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
     local Updates = Window:NewTab("Updates 🛠")
     local UpdatesSection = Updates:NewSection("Updated Page On 6/12/2022")
     
-    UpdatesSection:NewLabel("Extra Scripts , Executor Stats Under Dev")
+    UpdatesSection:NewLabel("0.3B Added executor support (go info)")
+    UpdatesSection:NewLabel("0.3A Extra Scripts , Executor Stats Under Dev")
     UpdatesSection:NewLabel("0.2 Added Stats , New Scripts")
     UpdatesSection:NewLabel("0.1 Game Hub Was Born!")
     
@@ -75,7 +76,7 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
     local Games = Window:NewTab("Games 🎮")
     local GamesSection = Games:NewSection("Choose A Game(You Must Be On That)")
 
-    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (VERY OP Script!)", "Stats: 🟢", function()
+    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (VERY OP)", "Stats: 🟢|Executor: 🟧", function()
         if not game:IsLoaded() then
             game.Loaded:Wait()
         end
@@ -135,33 +136,33 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
         end
     end)
 
-    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (Risky Script)", "Stats: 🟠", function()
+    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (Risky)", "Stats: 🟠|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
     end)
 
-    GamesSection:NewButton("Slap Royale", "Stats: 🟢", function()
+    GamesSection:NewButton("Slap Royale", "Stats: 🟢|Executor: 🟩", function()
         loadstring( game:HttpGet("https://raw.githubusercontent.com/cheesynob39/Roblox-Scripts/main/Slap_Royale.lua" ))()
     end)
 
-    GamesSection:NewButton("DOORS 👁️", "Stats: 🟤", function()
+    GamesSection:NewButton("DOORS 👁️", "Stats: 🟤|Executor: 🟨", function()
         loadstring(game:HttpGetAsync("https://www.klgrth.io/paste/hd9x6/raw"))()
     end)
     
-    GamesSection:NewButton("❓ LUCKY BLOCKS Battlegrounds", "Stats: 🟢", function()
+    GamesSection:NewButton("❓ LUCKY BLOCKS Battlegrounds", "Stats: 🟢|Executor: 🟩", function()
         while wait() do
             game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
             end
         end)
 
-    GamesSection:NewButton("dig to china (Major Update)", "Stats: 🟢", function()
+    GamesSection:NewButton("dig to china (Major Update)", "Stats: 🟢|Executor: 🟨", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawstep/scripts/main/DigToChina.lua'))()
     end)
 
-    GamesSection:NewButton("[NEW!] Word Bridge", "Stats: 🟢", function()
+    GamesSection:NewButton("[NEW!] Word Bridge", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet("https://pastebin.com/raw/7zWf7Nf9", true))()
     end)
 
-    GamesSection:NewButton("[🎉EVENT] Blox Fruits", "Stats: 🟢", function()
+    GamesSection:NewButton("[🎉EVENT] Blox Fruits", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
     end)
 
@@ -169,35 +170,35 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
         print "You have found 1/7 easter eggs! Thanks for using Game Hub"
     end)
 
-    GamesSection:NewButton("Arsenal", "Stats: 🟢", function()
+    GamesSection:NewButton("Arsenal", "Stats: 🟢|Executor: 🟧", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     end)
 
-    GamesSection:NewButton("Natural Disaster Survival", "Stats: 🟢", function()
+    GamesSection:NewButton("Natural Disaster Survival", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
     end)
 
-    GamesSection:NewButton("🎟️ Evade", "Stats: 🟢", function()
+    GamesSection:NewButton("🎟️ Evade", "Stats: 🟢|Executor: 🟨", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AdvancedWare/VScript/main/Script", true))()
     end)
 
-    GamesSection:NewButton("⚡Ninja Legends", "Stats: 🟤", function()
+    GamesSection:NewButton("⚡Ninja Legends", "Stats: 🟤|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
     end)
 
-    GamesSection:NewButton("Impossible Glass Bridge Obby! (Squid Game)", "Stats: 🟤", function()
+    GamesSection:NewButton("Impossible Glass Bridge Obby! (Squid Game)", "Stats: 🟤|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SchoolTrash/ExoHub/main/Impossible%20Glass%20Bridge%20Obby"))()
     end)
 
-    GamesSection:NewButton("Tower of Hell", "Stats: 🟢", function()
+    GamesSection:NewButton("Tower of Hell", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/houza233/ShouHub/main/ToF"))()
     end)
 
-    GamesSection:NewButton("nico's nextbots", "Stats: 🟢", function()
+    GamesSection:NewButton("nico's nextbots", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/nicos%20nextbots'),true))()
     end)
     
-    GamesSection:NewButton("[⚡ANIME] Pet Simulator X! 🐾", "Stats: 🟠", function()
+    GamesSection:NewButton("[⚡ANIME] Pet Simulator X! 🐾", "Stats: 🟠|Executor: 🟩", function()
         getgenv().AuthKey="HUGE_2Wj3FUzQv4gzY843"
         getgenv().LoadSettings={
         DisableStartupPrompt=false
@@ -205,19 +206,19 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
         loadstring(game:HttpGet("https://HugeGames.io/script"))()
 end)
     
-    GamesSection:NewButton("Combat Warriors", "Stats: 🟡", function()
+    GamesSection:NewButton("Combat Warriors", "Stats: 🟡|Executor: 🟨", function()
         loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
     end)
 
-    GamesSection:NewButton("Funky Friday", "Stats: 🟢", function()
+    GamesSection:NewButton("Funky Friday", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/funkyfriday"))()
     end)
 
-    GamesSection:NewButton("Pop It Trading ✨", "Stats: 🟢", function()
+    GamesSection:NewButton("Pop It Trading ✨", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Playgames291/Script/main/Zerpent%20Hub%20V2%20Cracked%20DO%20NOT%20TRY%20TO%20CHECK%20CODE%20IT%20IS%20OBFUSCATED%20SKID"))()
     end)
 
-    GamesSection:NewButton("[🎃] My Hood", "Stats: 🟤", function()
+    GamesSection:NewButton("[🎃] My Hood", "Stats: 🟤|Executor: ⬛", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/xnri9Ei0'))()
     end)
 
@@ -293,7 +294,7 @@ end)
        --
        game.StarterGui:SetCore("SendNotification",  {
         Title = "Did you know?";
-        Text = "Game Hub Has 302 Lines Of Code!";
+        Text = "Game Hub Has 305 Lines Of Code!";
         Icon = "http://www.roblox.com/asset/?id=10590477428";
         Duration = 2;
         Button1 = "WOW!";
