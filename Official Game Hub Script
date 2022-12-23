@@ -180,6 +180,26 @@ end)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Raijin333/arsenalscriptraijin/main/arsenalscriptlink"))()
     end)
 
+    GamesSection:NewButton("Murder Mystery 2", "Stats:  🟢|Executor:  🟩", function()
+        loadstring(game:HttpGet('https://scripts.luawl.com/Main/Scourge.lua'))()
+    end)
+
+    GamesSection:NewButton("Emergency Response: Liberty County", "Stats:  🟢|Executor:  🟩", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Altraxs-Hub/main/Loader"))()
+    end)
+
+    GamesSection:NewButton("Rebirth Champions X", "Stats:  🔵|Executor:  🟩", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KrystekYTpv/Scripts/main/RebirthChampionsX.lua", true))()
+    end)
+
+    GamesSection:NewButton("PLS Donate", "Stats:  🟢|Executor:  🟨", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonate'))()
+    end)
+
+    GamesSection:NewButton("PLS Donate (2)", "Stats:  🟢|Executor:  🟧", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
+    end)
+
     --FE
 
     local FE = Window:NewTab("FE 🔨")
