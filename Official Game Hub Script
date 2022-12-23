@@ -77,11 +77,11 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
     local Games = Window:NewTab("Games 🎮")
     local GamesSection = Games:NewSection("Choose A Game(You Must Be On That)")
 
-    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (VERY OP)", "Stats: 🟢|Executor: 🟧", function()
+    GamesSection:NewButton("Slap Battles👏 (VERY OP)", "Stats: 🟢|Executor: 🟧", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
     end)
 
-    GamesSection:NewButton("[🎄CHRISTMAS] Slap Battles👏 (Risky)", "Stats: 🟠|Executor: 🟩", function()
+    GamesSection:NewButton("Slap Battles👏 (Risky)", "Stats: 🟠|Executor: 🟩", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/dizyhvh/slap_battles_gui/main/0.lua"))()
     end)
 
@@ -107,7 +107,7 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
         loadstring(game:HttpGet("https://pastebin.com/raw/7zWf7Nf9", true))()
     end)
 
-    GamesSection:NewButton("[🎉EVENT] Blox Fruits", "Stats: 🟢|Executor: 🟩", function()
+    GamesSection:NewButton("Blox Fruits", "Stats: 🟢|Executor: 🟩", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
     end)
 
@@ -123,7 +123,7 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
         loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
     end)
 
-    GamesSection:NewButton("🎟️ Evade", "Stats: 🟢|Executor: 🟨", function()
+    GamesSection:NewButton("Evade", "Stats: 🟢|Executor: 🟨", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AdvancedWare/VScript/main/Script", true))()
     end)
 
@@ -215,7 +215,7 @@ end)
         print(currentOption)
     end)
 
-    InfoSection:NewLabel("Find Stats N Executor Support At 3 Dots Of Each Script")
+    InfoSection:NewLabel("Find Stats N Executor Support At 3 Dots Of Scripts")
     InfoSection:NewButton("Infinite Yield", "Best Admin  Stats: Always: 🟢", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end)
