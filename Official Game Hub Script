@@ -52,7 +52,7 @@ local function callback(Text)
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version 🔓    Stats: 🟢", "Ocean")
+local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version 🔓 Merry XMAS ❤", "BloodTheme")
     --Hello Section
     local Hello = Window:NewTab("Hello 👋")
     local HelloSection = Hello:NewSection("Read Above")
@@ -66,8 +66,9 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
 
     --Updates
     local Updates = Window:NewTab("Updates 🛠")
-    local UpdatesSection = Updates:NewSection("Updated Page On 6/12/2022")
+    local UpdatesSection = Updates:NewSection("Updated Page On 23/12/2022")
     
+    UpdatesSection:NewLabel("Happy New Year 🎇")
     UpdatesSection:NewLabel("0.3B Added executor support (go info)")
     UpdatesSection:NewLabel("0.3A Extra Scripts , Executor Stats Under Dev")
     UpdatesSection:NewLabel("0.2 Added Stats , New Scripts")
@@ -167,13 +168,23 @@ end)
         loadstring(game:HttpGet('https://pastebin.com/raw/xnri9Ei0'))()
     end)
 
- 
+    GamesSection:NewButton("Epic Minigames", "Stats:  🟢|Executor:  ⬛", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SlamminPig/rblxgames/main/Epic%20Minigames/EpicMinigamesGUI"))()
+    end)
+
+    GamesSection:NewButton("Demon Soul Simulator", "Stats:  🟤|Executor:  🟩", function()
+        loadstring(game:HttpGet('https://weinzspace.com/loadscript.lua'))()
+    end)
+
+    GamesSection:NewButton("Arsenal", "Stats:  🟢|Executor:  🟩", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Raijin333/arsenalscriptraijin/main/arsenalscriptlink"))()
+    end)
 
     --FE
 
     local FE = Window:NewTab("FE 🔨")
     local FESection = FE:NewSection("FE Scripts")
-    FESection:NewLabel("~ Very Soon ~")
+    FESection:NewLabel("Coming in 2023")
     
     --Local Player
     local Player = Window:NewTab("Player 🏃‍♂️🏃‍♀️")
@@ -222,11 +233,16 @@ end)
 
     InfoSection:NewLabel("discord.gg/P5PWY3FJWW")
     
+
+
+
+
+    --Callback
     wait(10)
 
     local function callback(Text)
-        if Text == "WOW!" then
-         print ("And it is not even done yet!")
+        if Text == "yay" then
+         print ("XMAS!!!!! |  2023 SOON!")
        elseif Text == ("STOP!") then
         print ("ok ok I'll stop")
         end
@@ -240,11 +256,11 @@ end)
        NotificationBindable.OnInvoke = callback
        --
        game.StarterGui:SetCore("SendNotification",  {
-        Title = "Did you know?";
-        Text = "Game Hub Has 305 Lines Of Code!";
+        Title = "Merry Xmas 🎉";
+        Text = "Merry Xmas And Happy New Year";
         Icon = "http://www.roblox.com/asset/?id=10590477428";
         Duration = 2;
-        Button1 = "WOW!";
+        Button1 = "yay";
         Button2 = "STOP!";
         Callback = NotificationBindable;
        })
