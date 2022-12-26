@@ -200,6 +200,29 @@ end)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/bardium/random/main/plsdonateold'))()
     end)
 
+    GamesSection:NewButton("Pet Simulator X! 🐾 (2)", "Stats:  🟢|Executor:  🟨", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Flxry/Main/MilkyHub/Pet%20Simulator%20X"))()
+    end)
+
+    GamesSection:NewButton("Pet Simulator X! 🐾 (3)", "No Info could be taken :(", function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+    end)
+ 
+    GamesSection:NewButton("Pet Simulator X! 🐾 (4)", "Nothing Here ❔", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/XLinestX/ShinyTool_Key/main/Loader.lua"))()
+    end)
+
+    GamesSection:NewButton("Slap Battles (Elude Glove)", "Stats,Executor:  🟢🟩", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/kiriakos7777/ELUDE/main/Elude%20Script"))()
+    end)
+
+    GamesSection:NewButton("survive and kill the killers in area 51", "Stats.Executor:  🟢🟩", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/TtdvYAKU'))()
+    end)
+
+
+
+
     --FE
 
     local FE = Window:NewTab("FE 🔨")
@@ -247,12 +270,20 @@ end)
     end)
 
     InfoSection:NewLabel("Find Stats N Executor Support At 3 Dots Of Scripts")
-    InfoSection:NewButton("Infinite Yield", "Best Admin  Stats: Always: 🟢", function()
+    InfoSection:NewButton("Infinity Yield", "Best Admin  Stats: Always: 🟢", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end)
 
     InfoSection:NewLabel("discord.gg/P5PWY3FJWW")
     
+    --FEEDBACK
+
+    local feedback = Window:NewTab("FEEDBACK 💲")
+    local feedbackSection = feedback:NewSection("Rate the script! ❤")
+
+    feedbackSection:NewDropdown("Rate", "Rate the script from 1-5", {"⭐", "⭐⭐", "⭐⭐⭐", "⭐⭐⭐⭐", "⭐⭐⭐⭐⭐"}, function(currentOption)
+    print("Thanks for rating game hub!  ❤")
+end)
 
 
 
