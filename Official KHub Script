@@ -1,9 +1,9 @@
 --Loading
 local function callback(Text)
     if Text == "OK" then
-     print ("Loading Game Hub ...")
+     print ("Loading KHub ...")
    elseif Text == ("Waiting...") then
-    print ("Hi! Game Hub Is Loading ...")
+    print ("Hi! KHub Is Loading ...")
     end
    end
 
@@ -13,7 +13,7 @@ local function callback(Text)
    NotificationBindable.OnInvoke = callback
    --
    game.StarterGui:SetCore("SendNotification",  {
-    Title = "Loading Game Hub";
+    Title = "Loading KHub";
     Text = "Now loading everything";
     Icon = "http://www.roblox.com/asset/?id=10590477428";
     Duration = 5;
@@ -26,9 +26,9 @@ local function callback(Text)
 --Loaded
    local function callback(Text)
     if Text == "OK" then
-     print ("Game Hub Loaded ✅")
+     print ("KHub Loaded ✅")
    elseif Text == ("Hi!") then
-    print ("Hi! Game Hub Loaded ✅")
+    print ("Hi! KHub Loaded ✅")
     end
    end
 
@@ -52,7 +52,7 @@ local function callback(Text)
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version 🔓 Merry XMAS ❤", "BloodTheme")
+local Window = Library.CreateLib("KHub By kiriakos7777#0200 Free Version 🔓 Merry XMAS ❤", "BloodTheme")
     --Hello Section
     local Hello = Window:NewTab("Hello 👋")
     local HelloSection = Hello:NewSection("Read Above")
@@ -68,7 +68,8 @@ local Window = Library.CreateLib("Game Hub! By kiriakos7777#0200 Free Version �
     local Updates = Window:NewTab("Updates 🛠")
     local UpdatesSection = Updates:NewSection("Updated Page On 23/12/2022")
     
-    UpdatesSection:NewLabel("Happy New Year 🎇")
+    UpdatesSection:NewLabel("0.3C +Scripts , Feedback")
+    UpdatesSection:NewLabel("Merry Xmas")
     UpdatesSection:NewLabel("0.3B Added executor support (go info)")
     UpdatesSection:NewLabel("0.3A Extra Scripts , Executor Stats Under Dev")
     UpdatesSection:NewLabel("0.2 Added Stats , New Scripts")
@@ -216,18 +217,24 @@ end)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/kiriakos7777/ELUDE/main/Elude%20Script"))()
     end)
 
-    GamesSection:NewButton("survive and kill the killers in area 51", "Stats.Executor:  🟢🟩", function()
+    GamesSection:NewButton("survive and kill the killers in area 51", "Stats,Executor:  🟢🟩", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/TtdvYAKU'))()
     end)
 
+    GamesSection:NewButton("The Maze", "Stats,Executor:  🟢🟩", function()
+        loadstring(game:HttpGet('https://scripts.luawl.com/Main/Scourge.lua'))()
+    end)
 
+    GamesSection:NewButton("3008", "Stats,Executor:  🟢🟩", function()
+        loadstring(game:HttpGet('https://scripts.luawl.com/Main/Scourge.lua'))()
+    end)
 
 
     --FE
 
     local FE = Window:NewTab("FE 🔨")
     local FESection = FE:NewSection("FE Scripts")
-    FESection:NewLabel("Coming in 2023")
+    FESection:NewLabel("Very Very Soon!")
     
     --Local Player
     local Player = Window:NewTab("Player 🏃‍♂️🏃‍♀️")
@@ -262,11 +269,11 @@ end)
  
     InfoSection:NewLabel("Made By Kiriakos#0200")
     InfoSection:NewDropdown("Stats Explain", "All stats used explained!", {"Don't Click Anything Below", "🟢 = Working", "🟡 = Issues", "🟠 = 50% Patched", "🔴 = Patched", "🔵 = Only Game Hub", "⚫ = Marked As Dangerous", "🟤 = Not Tested"}, function(currentOption)
-         print(currentOption)
+         print("STOP TOUCHING IT")
     end)
     
     InfoSection:NewDropdown("Executors Support Explain", "All executor symbols explained", {"Don't Click Anything Below", "🟩 = All Executors", "🟨 = 75% Executors Can Run", "🟧 = Known Executors", "🟥 = Synapse X , Script Ware", "⬛ = Custom"}, function(currentOption)
-        print(currentOption)
+        print("Why you freaking clicked")
     end)
 
     InfoSection:NewLabel("Find Stats N Executor Support At 3 Dots Of Scripts")
