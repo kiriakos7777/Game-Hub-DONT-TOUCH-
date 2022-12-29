@@ -52,10 +52,37 @@ local function callback(Text)
 
    
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("KHub By kiriakos7777#0200 Free Version 🔓 Merry XMAS ❤", "BloodTheme")
-    --Hello Section
-    local Hello = Window:NewTab("Hello 👋")
-    local HelloSection = Hello:NewSection("Read Above")
+local Window = Library.CreateLib("TEMP CLOSED [kiriakos7777#0200]", "Synapse")
+   
+--temp closed
+local closed = Window:NewTab("Closed!")
+local closedSection = closed:NewSection("KHub Is Temp Disabled")
+closedSection:NewLabel("QnA 1")
+closedSection:NewLabel("Q: Why?")
+closedSection:NewLabel("A: There are issues!")
+closedSection:NewLabel("QnA 2")
+closedSection:NewLabel("Q: Is it coming back?")
+closedSection:NewLabel("A: Can't be confrimed")
+closedSection:NewLabel("QnA 3")
+closedSection:NewLabel("Q: What kind of issues")
+closedSection:NewLabel("A: Risk of getting banned")
+closedSection:NewLabel("QnA 4")
+closedSection:NewLabel("Q: Any Solutions?")
+closedSection:NewLabel("A: Keysystem / private")
+closedSection:NewLabel("QnA 5")
+closedSection:NewLabel("Q: Social Media")
+closedSection:NewButton("A: Discord (Copy Link)", "Copy Paste", function()
+    setclipboard("https://discord.com/invite/P5PWY3FJWW")
+end)
+
+
+
+
+--Hello Section
+
+
+    local Hello = Window:NewTab("Bye! 👋")
+    local changeSection = change:NewSection("Read Above")
 
     HelloSection:NewLabel("Hi,")
     HelloSection:NewLabel(game.Players.LocalPlayer.Name)
